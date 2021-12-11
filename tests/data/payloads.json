@@ -1,0 +1,611 @@
+{
+  "absence.create": {
+    "absence": {
+      "name": "myAbsence",
+      "company": {
+        "id": 233
+      }
+    }
+  },
+  "absence.get": {
+    "id": 78
+  },
+  "absence.update": {
+    "absence": {
+      "id": 78,
+      "name": "newName"
+    }
+  },
+  "absence.list": {
+    "company": {
+      "id": 233
+    }
+  },
+  "absence.activate": {
+    "id": 78
+  },
+  "absence.deactivate": {
+    "id": 78
+  },
+  "absence.add_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "absence.remove_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "absence.groups": {
+    "id": 78
+  },
+  "company.create": {
+    "company": {
+      "name": "myCompany",
+      "corporate": true
+    }
+  },
+  "company.get": {
+    "id": 233
+  },
+  "company.update": {
+    "company": {
+      "id": 233,
+      "name": "newName"
+    }
+  },
+  "company.list": {},
+  "company.activate": {
+    "id": 233
+  },
+  "company.deactivate": {
+    "id": 233
+  },
+  "company.attach_specific_task": {
+    "id": 78,
+    "task": {
+      "id": 43
+    }
+  },
+  "company.detach_specific_task": {
+    "id": 78,
+    "task": {
+      "id": 43
+    }
+  },
+  "company.specific_tasks": {
+    "id": 78
+  },
+  "company.enable_specific_tasks": {
+    "id": 78
+  },
+  "company.disable_specific_tasks": {
+    "id": 78
+  },
+  "company.attach_member": {
+    "id": 78,
+    "person": {
+      "id": 43
+    }
+  },
+  "company.detach_member": {
+    "id": 78,
+    "person": {
+      "id": 43
+    }
+  },
+  "company.members": {
+    "id": 78
+  },
+  "company.add_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "company.remove_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "company.groups": {
+    "id": 78
+  },
+  "company.set_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 7206,
+      "value": "Transportation"
+    }
+  },
+  "company.clear_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 7206
+    }
+  },
+  "company.custom_fields": {
+    "id": 78
+  },
+  "person.create": {
+    "person": {
+      "name": "Rosa Parks",
+      "company": {
+        "id": 233
+      },
+      "email": "rosa.parks@example.com",
+      "invite": true,
+      "userGroup": "employee",
+      "leaders": [
+        {
+          "id": 32,
+          "name": "Jane Clark",
+          "email": "jane.clark@example.com"
+        }
+      ]
+    }
+  },
+  "person.get": {
+    "id": 455
+  },
+  "person.update": {
+    "person": {
+      "id": 455,
+      "name": "Rosa Parks",
+      "email": "rosa.parks@example.com",
+      "invite": true,
+      "userGroup": "employee",
+      "leaders": [
+        {
+          "id": 32,
+          "name": "Jane Clark",
+          "email": "jane.clark@example.com"
+        }
+      ]
+    }
+  },
+  "person.list": {
+    "company": {
+      "id": 233
+    }
+  },
+  "person.leaders": {
+    "id": 455
+  },
+  "person.activate": {
+    "id": 455
+  },
+  "person.deactivate": {
+    "id": 455
+  },
+  "person.add_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "person.remove_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "person.groups": {
+    "id": 78
+  },
+  "person.set_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 4879,
+      "value": "Salt Lake City, UT, USA"
+    }
+  },
+  "person.clear_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 4879
+    }
+  },
+  "person.custom_fields": {
+    "id": 78
+  },
+  "project.create": {
+    "project": {
+      "name": "Development",
+      "startDate": "2017-10-13",
+      "description": "some description ",
+      "company": {
+        "id": 233
+      }
+    }
+  },
+  "project.get": {
+    "id": 321
+  },
+  "project.update": {
+    "project": {
+      "id": 321,
+      "name": "newName",
+      "startDate": "2017-10-13",
+      "description": "some description "
+    }
+  },
+  "project.list": {
+    "company": {
+      "id": 233
+    }
+  },
+  "project.activate": {
+    "id": 321
+  },
+  "project.deactivate": {
+    "id": 321
+  },
+  "project.attach_specific_task": {
+    "id": 78,
+    "task": {
+      "id": 43
+    }
+  },
+  "project.detach_specific_task": {
+    "id": 78,
+    "task": {
+      "id": 43
+    }
+  },
+  "project.specific_tasks": {
+    "id": 78
+  },
+  "project.enable_specific_tasks": {
+    "id": 78
+  },
+  "project.disable_specific_tasks": {
+    "id": 78
+  },
+  "project.attach_member": {
+    "id": 78,
+    "person": {
+      "id": 43
+    }
+  },
+  "project.detach_member": {
+    "id": 78,
+    "person": {
+      "id": 43
+    }
+  },
+  "project.members": {
+    "id": 78
+  },
+  "project.attach_manager": {
+    "id": 78,
+    "person": {
+      "id": 43
+    }
+  },
+  "project.detach_manager": {
+    "id": 78,
+    "person": {
+      "id": 43
+    }
+  },
+  "project.managers": {
+    "id": 78
+  },
+  "project.add_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "project.remove_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "project.groups": {
+    "id": 78
+  },
+  "project.set_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 4879,
+      "value": "Salt Lake City, UT, USA"
+    }
+  },
+  "project.clear_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 4879
+    }
+  },
+  "project.custom_fields": {
+    "id": 78
+  },
+  "subproject.create": {
+    "subproject": {
+      "name": "Prototype",
+      "project": {
+        "id": 321
+      }
+    }
+  },
+  "subproject.get": {
+    "id": 765
+  },
+  "subproject.update": {
+    "subproject": {
+      "id": 765,
+      "name": "newName"
+    }
+  },
+  "subproject.list": {
+    "project": {
+      "id": 765
+    }
+  },
+  "subproject.activate": {
+    "id": 765
+  },
+  "subproject.deactivate": {
+    "id": 765
+  },
+  "subproject.attach_specific_task": {
+    "id": 86,
+    "task": {
+      "id": 43
+    }
+  },
+  "subproject.detach_specific_task": {
+    "id": 86,
+    "task": {
+      "id": 43
+    }
+  },
+  "subproject.specific_tasks": {
+    "id": 86
+  },
+  "subproject.enable_specific_tasks": {
+    "id": 78
+  },
+  "subproject.disable_specific_tasks": {
+    "id": 78
+  },
+  "subproject.attach_member": {
+    "id": 765,
+    "person": {
+      "id": 43
+    }
+  },
+  "subproject.detach_member": {
+    "id": 765,
+    "person": {
+      "id": 43
+    }
+  },
+  "subproject.members": {
+    "id": 765
+  },
+  "subproject.add_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "subproject.remove_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "subproject.groups": {
+    "id": 78
+  },
+  "subproject.set_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 4879,
+      "value": "Salt Lake City, UT, USA"
+    }
+  },
+  "subproject.clear_custom_field_value": {
+    "id": 78,
+    "customField": {
+      "id": 4879
+    }
+  },
+  "subproject.custom_fields": {
+    "id": 78
+  },
+  "task.create": {
+    "task": {
+      "name": "Meeting",
+      "company": {
+        "id": 233
+      }
+    }
+  },
+  "task.get": {
+    "id": 955
+  },
+  "task.update": {
+    "task": {
+      "id": 955,
+      "name": "newName"
+    }
+  },
+  "task.list": {
+    "company": {
+      "id": 233
+    }
+  },
+  "task.activate": {
+    "id": 955
+  },
+  "task.deactivate": {
+    "id": 955
+  },
+  "task.add_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "task.remove_group": {
+    "id": 78,
+    "group": {
+      "id": 105
+    }
+  },
+  "task.groups": {
+    "id": 78
+  },
+  "group.create": {
+    "group": {
+      "name": "Texas",
+      "parent": {
+        "id": 4787
+      }
+    }
+  },
+  "group.get": {
+    "id": 1005
+  },
+  "group.update": {
+    "group": {
+      "id": 1005,
+      "name": "Texas - Austin"
+    }
+  },
+  "group.delete": {
+    "id": 1005,
+    "force": true
+  },
+  "group.list": {
+    "company": {
+      "id": 233
+    }
+  },
+  "group.assignments": {
+    "id": 4787
+  },
+  "group.tree": {},
+  "custom_field.list": {},
+  "time_entry.get_entities": {
+    "project": {
+      "id": 30
+    },
+    "date": "2017-06-16"
+  },
+  "time_entry.get_tasks": {
+    "subproject": {
+      "id": 37
+    },
+    "date": "2017-07-16"
+  },
+  "time_entry.create": {
+    "subproject": {
+      "id": 37
+    },
+    "task": {
+      "id": 17
+    },
+    "date": "2017-08-05",
+    "hours": 8,
+    "comment": "some comment"
+  },
+  "time_entry.update": {
+    "id": 500901,
+    "subproject": {
+      "id": 37
+    },
+    "task": {
+      "id": 17
+    },
+    "date": "2017-09-29",
+    "hours": 7,
+    "comment": "updated comment"
+  },
+  "time_entry.get": {
+    "id": 500901,
+    "date": "2017-09-29"
+  },
+  "time_entry.delete": {
+    "id": 500901,
+    "date": "2017-09-29"
+  },
+  "time_entry.list": {
+    "person": {
+      "id": 2
+    },
+    "from": "2017-09-01",
+    "to": "2017-09-30"
+  },
+  "time_entry.submit": {
+    "person": {
+      "id": 2
+    },
+    "from": "2017-10-01",
+    "to": "2017-10-15"
+  },
+  "time_entry.approve": {
+    "person": {
+      "id": 2
+    },
+    "from": "2017-10-01",
+    "to": "2017-10-15"
+  },
+  "time_entry.reject": {
+    "person": {
+      "id": 2
+    },
+    "from": "2017-10-01",
+    "to": "2017-10-15",
+    "memo": "Rejection reason"
+  },
+  "time_entry.lock": {
+    "person": {
+      "id": 2
+    },
+    "from": "2017-10-01",
+    "to": "2017-10-15"
+  },
+  "time_entry.unlock": {
+    "person": {
+      "id": 2
+    },
+    "from": "2017-10-01",
+    "to": "2017-10-15"
+  },
+  "time_entry.export": {
+    "from": "2017-10-01",
+    "to": "2017-10-30",
+    "show": "all",
+    "keys": [
+      "company",
+      "companyId",
+      "hours"
+    ],
+    "statusFilters": [
+      "l",
+      "a"
+    ],
+    "company": {
+      "id": 8695
+    },
+    "gids": [
+      4588,
+      8977
+    ],
+    "outputFormat": "array"
+  },
+  "time_entry.get_job_info": {
+    "id": 1148,
+    "outputFormat": "array"
+  }
+}

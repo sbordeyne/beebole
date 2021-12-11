@@ -1,0 +1,808 @@
+{
+  "absence.create": {
+    "status": "ok",
+    "id": 78
+  },
+  "absence.get": {
+    "status": "ok",
+    "absence": {
+      "id": 78,
+      "name": "myAbsence",
+      "company": {
+        "id": 233
+      },
+      "active": true
+    }
+  },
+  "absence.update": {
+    "status": "ok"
+  },
+  "absence.list": {
+    "status": "ok",
+    "absences": [
+      {
+        "id": 78,
+        "name": "myAbsence",
+        "company": {
+          "id": 233
+        },
+        "active": true
+      }
+    ]
+  },
+  "absence.activate": {
+    "status": "ok"
+  },
+  "absence.deactivate": {
+    "status": "ok"
+  },
+  "absence.add_group": {
+    "status": "ok"
+  },
+  "absence.remove_group": {
+    "status": "ok"
+  },
+  "absence.groups": {
+    "status": "ok",
+    "groups": [
+      {
+        "id": 4787,
+        "name": "US",
+        "groups": {
+          "count": 4
+        }
+      }
+    ]
+  },
+  "company.create": {
+    "status": "ok",
+    "id": 233
+  },
+  "company.get": {
+    "status": "ok",
+    "company": {
+      "id": 233,
+      "name": "myCompany",
+      "projects": {
+        "count": 3
+      },
+      "active": true
+    }
+  },
+  "company.update": {
+    "status": "ok"
+  },
+  "company.list": {
+    "status": "ok",
+    "companies": [
+      {
+        "id": 233,
+        "name": "myCompany",
+        "projects": {
+          "count": 3
+        },
+        "active": true
+      }
+    ]
+  },
+  "company.activate": {
+    "status": "ok"
+  },
+  "company.deactivate": {
+    "status": "ok"
+  },
+  "company.attach_specific_task": {
+    "status": "ok"
+  },
+  "company.detach_specific_task": {
+    "status": "ok"
+  },
+  "company.specific_tasks": {
+    "status": "ok",
+    "disabled": false,
+    "specificTasks": [
+      {
+        "name": "Administration",
+        "id": 345,
+        "active": true
+      }
+    ]
+  },
+  "company.enable_specific_tasks": {
+    "status": "ok"
+  },
+  "company.disable_specific_tasks": {
+    "status": "ok"
+  },
+  "company.attach_member": {
+    "status": "ok"
+  },
+  "company.detach_member": {
+    "status": "ok"
+  },
+  "company.members": {
+    "status": "ok",
+    "members": [
+      {
+        "name": "John Le Carr\u00e9",
+        "id": 345
+      }
+    ],
+    "groups": [
+      {
+        "name": "US",
+        "id": 978
+      }
+    ]
+  },
+  "company.add_group": {
+    "status": "ok"
+  },
+  "company.remove_group": {
+    "status": "ok"
+  },
+  "company.groups": {
+    "status": "ok",
+    "groups": [
+      {
+        "id": 4787,
+        "name": "US",
+        "groups": {
+          "count": 4
+        }
+      }
+    ]
+  },
+  "company.set_custom_field_value": {
+    "status": "ok"
+  },
+  "company.clear_custom_field_value": {
+    "status": "ok"
+  },
+  "company.custom_fields": {
+    "status": "ok",
+    "customFields": [
+      {
+        "id": 7206,
+        "name": "Industry",
+        "value": "Transportation"
+      },
+      {
+        "id": 4149,
+        "name": "location"
+      }
+    ]
+  },
+  "person.create": {
+    "status": "ok",
+    "id": 455
+  },
+  "person.get": {
+    "status": "ok",
+    "person": {
+      "id": 455,
+      "name": "Rosa Parks",
+      "company": {
+        "id": 233
+      },
+      "active": true,
+      "email": "rosa.parks@example.com",
+      "userGroup": "employee",
+      "leaders": {
+        "count": 1
+      }
+    }
+  },
+  "person.update": {
+    "status": "ok"
+  },
+  "person.list": {
+    "status": "ok",
+    "people": [
+      {
+        "id": 455,
+        "name": "Rosa Parks",
+        "company": {
+          "id": 233
+        },
+        "active": true,
+        "email": "rosa.parks@example.com",
+        "userGroup": "employee",
+        "leaders": {
+          "count": 1
+        }
+      }
+    ]
+  },
+  "person.leaders": {
+    "status": "ok",
+    "leaders": [
+      {
+        "id": 32,
+        "name": "Jane Clark",
+        "company": {
+          "id": 233
+        },
+        "active": true,
+        "email": "jane.clarks@example.com",
+        "userGroup": "leader",
+        "leaders": {
+          "count": 1
+        }
+      }
+    ]
+  },
+  "person.activate": {
+    "status": "ok"
+  },
+  "person.deactivate": {
+    "status": "ok"
+  },
+  "person.add_group": {
+    "status": "ok"
+  },
+  "person.remove_group": {
+    "status": "ok"
+  },
+  "person.groups": {
+    "status": "ok",
+    "groups": [
+      {
+        "id": 4787,
+        "name": "US",
+        "groups": {
+          "count": 4
+        }
+      }
+    ]
+  },
+  "person.set_custom_field_value": {
+    "status": "ok"
+  },
+  "person.clear_custom_field_value": {
+    "status": "ok"
+  },
+  "person.custom_fields": {
+    "status": "ok",
+    "customFields": [
+      {
+        "id": 4879,
+        "name": "location",
+        "value": "Salt Lake City, UT, USA"
+      }
+    ]
+  },
+  "project.create": {
+    "status": "ok",
+    "id": 321
+  },
+  "project.get": {
+    "status": "ok",
+    "project": {
+      "id": 321,
+      "name": "Development",
+      "startDate": "2017-10-13",
+      "description": "some description ",
+      "company": {
+        "id": 233
+      },
+      "subprojects": {
+        "count": 2
+      },
+      "active": true
+    }
+  },
+  "project.update": {
+    "status": "ok"
+  },
+  "project.list": {
+    "status": "ok",
+    "projects": [
+      {
+        "id": 321,
+        "name": "Development",
+        "startDate": "2017-10-13",
+        "description": "some description ",
+        "company": {
+          "id": 233
+        },
+        "subprojects": {
+          "count": 2
+        },
+        "active": true
+      }
+    ]
+  },
+  "project.activate": {
+    "status": "ok"
+  },
+  "project.deactivate": {
+    "status": "ok"
+  },
+  "project.attach_specific_task": {
+    "status": "ok"
+  },
+  "project.detach_specific_task": {
+    "status": "ok"
+  },
+  "project.specific_tasks": {
+    "status": "ok",
+    "disabled": false,
+    "specificTasks": [
+      {
+        "name": "Administration",
+        "id": 345,
+        "active": true
+      }
+    ]
+  },
+  "project.enable_specific_tasks": {
+    "status": "ok"
+  },
+  "project.disable_specific_tasks": {
+    "status": "ok"
+  },
+  "project.attach_member": {
+    "status": "ok"
+  },
+  "project.detach_member": {
+    "status": "ok"
+  },
+  "project.members": {
+    "status": "ok",
+    "members": [
+      {
+        "name": "John Le Carr\u00e9",
+        "id": 345
+      }
+    ],
+    "groups": [
+      {
+        "name": "US",
+        "id": 978
+      }
+    ]
+  },
+  "project.attach_manager": {
+    "status": "ok"
+  },
+  "project.detach_manager": {
+    "status": "ok"
+  },
+  "project.managers": {
+    "status": "ok",
+    "members": [
+      {
+        "name": "John Le Carr\u00e9",
+        "id": 345,
+        "email": "jlcarr@example.com",
+        "active": true
+      }
+    ]
+  },
+  "project.add_group": {
+    "status": "ok"
+  },
+  "project.remove_group": {
+    "status": "ok"
+  },
+  "project.groups": {
+    "status": "ok",
+    "groups": [
+      {
+        "id": 4787,
+        "name": "US",
+        "groups": {
+          "count": 4
+        }
+      }
+    ]
+  },
+  "project.set_custom_field_value": {
+    "status": "ok"
+  },
+  "project.clear_custom_field_value": {
+    "status": "ok"
+  },
+  "project.custom_fields": {
+    "status": "ok",
+    "customFields": [
+      {
+        "id": 4879,
+        "name": "location",
+        "value": "Salt Lake City, UT, USA"
+      }
+    ]
+  },
+  "subproject.create": {
+    "status": "ok",
+    "id": 765
+  },
+  "subproject.get": {
+    "status": "ok",
+    "subproject": {
+      "id": 765,
+      "name": "Prototype",
+      "project": {
+        "id": 765
+      },
+      "active": true
+    }
+  },
+  "subproject.update": {
+    "status": "ok"
+  },
+  "subproject.list": {
+    "status": "ok",
+    "subprojects": [
+      {
+        "id": 765,
+        "name": "Prototype",
+        "project": {
+          "id": 765
+        },
+        "active": true
+      }
+    ]
+  },
+  "subproject.activate": {
+    "status": "ok"
+  },
+  "subproject.deactivate": {
+    "status": "ok"
+  },
+  "subproject.attach_specific_task": {
+    "status": "ok"
+  },
+  "subproject.detach_specific_task": {
+    "status": "ok"
+  },
+  "subproject.specific_tasks": {
+    "status": "ok",
+    "disabled": false,
+    "specificTasks": [
+      {
+        "name": "Administration",
+        "id": 345,
+        "active": true
+      }
+    ]
+  },
+  "subproject.enable_specific_tasks": {
+    "status": "ok"
+  },
+  "subproject.disable_specific_tasks": {
+    "status": "ok"
+  },
+  "subproject.attach_member": {
+    "status": "ok"
+  },
+  "subproject.detach_member": {
+    "status": "ok"
+  },
+  "subproject.members": {
+    "status": "ok",
+    "members": [
+      {
+        "name": "Peter Flemming",
+        "id": 350
+      }
+    ],
+    "groups": [
+      {
+        "name": "US",
+        "id": 978
+      }
+    ]
+  },
+  "subproject.add_group": {
+    "status": "ok"
+  },
+  "subproject.remove_group": {
+    "status": "ok"
+  },
+  "subproject.groups": {
+    "status": "ok",
+    "groups": [
+      {
+        "id": 4787,
+        "name": "US",
+        "groups": {
+          "count": 4
+        }
+      }
+    ]
+  },
+  "subproject.set_custom_field_value": {
+    "status": "ok"
+  },
+  "subproject.clear_custom_field_value": {
+    "status": "ok"
+  },
+  "subproject.custom_fields": {
+    "status": "ok",
+    "customFields": [
+      {
+        "id": 4879,
+        "name": "location",
+        "value": "Salt Lake City, UT, USA"
+      }
+    ]
+  },
+  "task.create": {
+    "status": "ok",
+    "id": 955
+  },
+  "task.get": {
+    "status": "ok",
+    "task": {
+      "id": 955,
+      "name": "Meeting",
+      "company": {
+        "id": 233
+      },
+      "active": true
+    }
+  },
+  "task.update": {
+    "status": "ok"
+  },
+  "task.list": {
+    "status": "ok",
+    "tasks": [
+      {
+        "id": 955,
+        "name": "Meeting",
+        "company": {
+          "id": 233
+        },
+        "active": true
+      }
+    ]
+  },
+  "task.activate": {
+    "status": "ok"
+  },
+  "task.deactivate": {
+    "status": "ok"
+  },
+  "task.add_group": {
+    "status": "ok"
+  },
+  "task.remove_group": {
+    "status": "ok"
+  },
+  "task.groups": {
+    "status": "ok",
+    "groups": [
+      {
+        "id": 4787,
+        "name": "US",
+        "groups": {
+          "count": 4
+        }
+      }
+    ]
+  },
+  "group.create": {
+    "status": "ok",
+    "id": 1005
+  },
+  "group.get": {
+    "status": "ok",
+    "group": {
+      "id": 1005,
+      "name": "Texas",
+      "parent": {
+        "id": 4787
+      }
+    }
+  },
+  "group.update": {
+    "status": "ok"
+  },
+  "group.delete": {
+    "status": "ok"
+  },
+  "group.list": {
+    "status": "ok",
+    "groups": [
+      {
+        "id": 4787,
+        "name": "US",
+        "groups": {
+          "count": 4
+        }
+      }
+    ]
+  },
+  "group.assignments": {
+    "status": "ok",
+    "companies": [
+      {
+        "id": 233,
+        "name": "myCompany",
+        "active": true
+      }
+    ],
+    "people": [
+      {
+        "id": 455,
+        "name": "Rosa Parks",
+        "active": true,
+        "email": "rosa.parks@example.com"
+      }
+    ]
+  },
+  "group.tree": {
+    "groups": [
+      {
+        "id": 4521,
+        "name": "Country",
+        "groups": [
+          {
+            "id": 4787,
+            "name": "US"
+          }
+        ]
+      }
+    ]
+  },
+  "custom_field.list": {
+    "customFields": [
+      {
+        "id": 4641,
+        "name": "Company address",
+        "availableFor": "Company - Customer"
+      }
+    ]
+  },
+  "time_entry.get_entities": {
+    "subprojects": [
+      {
+        "active": true,
+        "name": "Analyse",
+        "id": 37
+      },
+      {
+        "active": true,
+        "name": "Proto",
+        "id": 31
+      }
+    ]
+  },
+  "time_entry.get_tasks": {
+    "tasks": [
+      {
+        "active": true,
+        "name": "Administration",
+        "id": 17
+      },
+      {
+        "active": true,
+        "name": "Meetings",
+        "id": 18
+      },
+      {
+        "active": true,
+        "name": "Research",
+        "id": 19
+      }
+    ]
+  },
+  "time_entry.create": {
+    "status": "ok",
+    "timeEntry": {
+      "hours": 8.0,
+      "status": "d",
+      "subproject": {
+        "id": 37,
+        "name": "Analyse",
+        "active": true
+      },
+      "task": {
+        "name": "Administration",
+        "id": 17,
+        "active": true
+      },
+      "id": 500901,
+      "date": "2017-09-29",
+      "comment": "some comment"
+    }
+  },
+  "time_entry.update": {
+    "status": "ok",
+    "timeEntry": {
+      "hours": 7.0,
+      "status": "d",
+      "subproject": {
+        "id": 37,
+        "name": "Analyse",
+        "active": true
+      },
+      "task": {
+        "name": "Administration",
+        "id": 17,
+        "active": true
+      },
+      "id": 500901,
+      "date": "2017-09-29",
+      "comment": "updated comment"
+    }
+  },
+  "time_entry.get": {
+    "status": "ok",
+    "timeEntry": {
+      "hours": 7.0,
+      "status": "d",
+      "subproject": {
+        "id": 37,
+        "name": "Analyse",
+        "active": true
+      },
+      "task": {
+        "name": "Administration",
+        "id": 17,
+        "active": true
+      },
+      "id": 500901,
+      "date": "2017-09-29",
+      "comment": "updated comment"
+    }
+  },
+  "time_entry.delete": {
+    "status": "ok"
+  },
+  "time_entry.list": {
+    "status": "ok",
+    "timeEntries": [
+      {
+        "hours": 7.0,
+        "status": "d",
+        "subproject": {
+          "id": 37,
+          "name": "Analyse",
+          "active": true
+        },
+        "task": {
+          "name": "Administration",
+          "id": 17,
+          "active": true
+        },
+        "id": 500901,
+        "date": "2017-09-29",
+        "comment": "updated comment"
+      }
+    ]
+  },
+  "time_entry.submit": {
+    "status": "ok"
+  },
+  "time_entry.approve": {
+    "status": "ok"
+  },
+  "time_entry.reject": {
+    "status": "ok"
+  },
+  "time_entry.lock": {
+    "status": "ok"
+  },
+  "time_entry.unlock": {
+    "status": "ok"
+  },
+  "time_entry.export": {
+    "status": "ok",
+    "job": {
+      "status": "running",
+      "id": 1148
+    }
+  },
+  "time_entry.get_job_info": {
+    "status": "ok",
+    "job": {
+      "status": "done",
+      "id": 1148,
+      "result": "Entreprise,Heures\nBranch,\"7,000\"\nMyCompany,\"63,000\"\n "
+    }
+  }
+}

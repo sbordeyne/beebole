@@ -1,0 +1,61 @@
+[build-system]
+requires = [ "poetry-core>=1.0.0",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "beebole"
+version = "1.0.0"
+description = "A python wrapper around the beebole API"
+authors = [ "Dogeek",]
+license = "MIT"
+classifiers = [ "Topic :: Software Development :: Libraries :: Python Modules", "Development Status :: 4 - Beta", "Environment :: Console", "Intended Audience :: Developers", "License :: Other/Proprietary License", "Operating System :: OS Independent", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: Implementation :: CPython",]
+
+[tool.yapf]
+based_on_style = "pep8"
+spaces_before_comment = 2
+split_before_logical_operator = true
+split_before_arithmetic_operator = true
+split_before_bitwise_operator = true
+split_complex_comprehension = true
+split_before_first_argument = true
+split_before_dot = true
+split_before_dict_set_generator = true
+split_before_closing_bracket = true
+each_dict_entry_on_separate_line = true
+dedent_closing_brackets = true
+column_limit = 119
+coalesce_brackets = true
+
+[tool.isort]
+skip_glob = [ "*scripts.py", "tests/*",]
+skip_gitignore = true
+line_length = 70
+line_ending = "\n"
+known_first_party = [ "mics",]
+balanced_wrapping = true
+use_parentheses = true
+include_trailing_comma = true
+multi_line_output = 5
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+dacite = "^1.6.0"
+
+[tool.poetry.dev-dependencies]
+poethepoet = "^0.11.0"
+pytest = "^6.2.5"
+pylama = "^8.3.3"
+yapf = "^0.31.0"
+isort = "^5.10.1"
+mypy = "^0.910"
+toml = "^0.10.2"
+lxml = "^4.6.4"
+ipdb = "^0.13.9"
+jstyleson = "^0.0.2"
+
+[tool.poe.tasks.make_test_data]
+script = "scripts:make_test_data"
+
+[tool.poe.tasks.set_version]
+script = "scripts:set_version"
